@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" thread-count="2" parallel="methods">
+  <test name="Selenium_Demo1701">
+    <classes>
+<!--      <class name="huifang.day2.ActionTest2">
+      <methods>
+        <include name="rightClickTest"/>
+        <include name="doubleClickTest"/>
+        <include name="dropTest"/>
+        <include name="moreSelectTest"/>
+      </methods>-->
+<class name="BetaTest.Login">
+      </class> <!-- day3.GridTest -->
+  <!-- <class name="com.huifang.day1.TestNGDemo2"></class>-->
+ </classes>
+</test> <!-- Selenium_Demo1701 -->
+</suite> <!-- Default Suite -->
